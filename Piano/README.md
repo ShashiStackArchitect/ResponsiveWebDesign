@@ -57,4 +57,5 @@ git clone https://github.com/ShashiStackArchitect/ResponsiveWebDesign/tree/main/
 
 ## Author
 Shashi Kant
+Frontend Developer | MERN Stack
 
