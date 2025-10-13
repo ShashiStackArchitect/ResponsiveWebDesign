@@ -24,7 +24,11 @@ A visually styled piano keyboard built with HTML and CSS, inspired by freeCodeCa
 Piano
 ├── index.html       
 ├── styles.css
+<<<<<<< HEAD
 ├── piano ss.png
+=======
+├── piano ss.png     
+>>>>>>> 0a11a94 (Piano)
 └── README.md       
 
 ## 📸 Screenshot
@@ -49,7 +53,7 @@ Device Width           Piano Width	  Logo Size
 
 ## Clone the repo:
 ```bash
-git clone https://github.com/ShashiStackArchitect/piano-project.git
+git clone https://github.com/ShashiStackArchitect/ResponsiveWebDesign/tree/main/Piano
 
 ## Author
 Shashi Kant
