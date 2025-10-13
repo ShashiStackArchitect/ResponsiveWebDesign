@@ -23,7 +23,8 @@ A visually styled piano keyboard built with HTML and CSS, inspired by freeCodeCa
 ## 📁 Folder Structure
 Piano
 ├── index.html       
-├── styles.css     
+├── styles.css
+├── piano ss.png
 └── README.md       
 
 ## 📸 Screenshot
