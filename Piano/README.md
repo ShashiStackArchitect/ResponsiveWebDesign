@@ -53,8 +53,13 @@ Device Width           Piano Width	  Logo Size
 
 ## Clone the repo:
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/ShashiStackArchitect/ResponsiveWebDesign/tree/main/Piano 
+=======
+git clone https://github.com/ShashiStackArchitect/ResponsiveWebDesign/edit/main/piano
+>>>>>>> 0a757ad1acab4bf427c499aa81a348e8399678db
 
 ## Author
 Shashi Kant
+Frontend Developer | MERN Developer
 
