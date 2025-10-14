@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linux Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Linux Basics Documentation</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#File_System">File System</a>
+    <a class="nav-link" href="#Permissions">Permissions</a>
+    <a class="nav-link" href="#Package_Management">Package Management</a>
+    <a class="nav-link" href="#Networking">Networking</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>Linux is a powerful open-source operating system used in servers, desktops, and embedded systems.</p>
+      <p>It offers flexibility, security, and control over system resources.</p>
+      <p>Linux distributions vary, but most share core components like the kernel and shell.</p>
+      <p>Understanding Linux is essential for DevOps, system administration, and cloud computing.</p>
+      <p>Linux supports multitasking and multi-user environments.</p>
+      <code>uname -a</code>
+      <code>man ls</code>
+      <code>whoami</code>
+      <code>pwd</code>
+      <code>echo "Hello Linux"</code>
+      <ul>
+        <li>Open-source</li>
+        <li>Secure</li>
+        <li>Customizable</li>
+        <li>Stable</li>
+        <li>Community-driven</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="File_System">
+      <header>File System</header>
+      <p>Linux uses a hierarchical file system starting from the root `/` directory.</p>
+      <p>Common directories include `/home`, `/etc`, `/var`, and `/usr`.</p>
+      <p>Everything in Linux is treated as a file, including devices.</p>
+      <p>Use `ls`, `cd`, and `mkdir` to navigate and manage files.</p>
+      <p>Hidden files start with a dot (`.`).</p>
+      <code>ls -la</code>
+      <code>cd /etc</code>
+      <code>mkdir new_folder</code>
+      <code>touch file.txt</code>
+      <code>rm file.txt</code>
+      <ul>
+        <li>/bin</li>
+        <li>/boot</li>
+        <li>/dev</li>
+        <li>/proc</li>
+        <li>/tmp</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Permissions">
+      <header>Permissions</header>
+      <p>Linux uses a permission model to control access to files and directories.</p>
+      <p>Permissions include read (r), write (w), and execute (x).</p>
+      <p>Use `chmod`, `chown`, and `ls -l` to manage permissions.</p>
+      <p>Each file has an owner and group.</p>
+      <p>Permissions are represented in symbolic and numeric formats.</p>
+      <code>chmod 755 script.sh</code>
+      <code>chown user:group file.txt</code>
+      <code>ls -l</code>
+      <code>umask</code>
+      <code>stat file.txt</code>
+      <ul>
+        <li>Owner</li>
+        <li>Group</li>
+        <li>Others</li>
+        <li>Read</li>
+        <li>Execute</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Package_Management">
+      <header>Package Management</header>
+      <p>Linux distributions use package managers to install and update software.</p>
+      <p>Debian-based systems use `apt`, while Red Hat uses `yum` or `dnf`.</p>
+      <p>Packages are stored in repositories.</p>
+      <p>Use `apt update` and `apt upgrade` to keep your system current.</p>
+      <p>Package managers resolve dependencies automatically.</p>
+      <code>sudo apt install nginx</code>
+      <code>apt-cache search apache</code>
+      <code>yum list installed</code>
+      <code>dnf update</code>
+      <code>snap install code</code>
+      <ul>
+        <li>apt</li>
+        <li>yum</li>
+        <li>dnf</li>
+        <li>snap</li>
+        <li>flatpak</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Networking">
+      <header>Networking</header>
+      <p>Linux provides powerful tools for networking and troubleshooting.</p>
+      <p>Use `ip`, `ping`, and `netstat` to inspect network configurations.</p>
+      <p>Services are managed via `systemctl` and configuration files.</p>
+      <p>Firewall rules can be set using `iptables` or `ufw`.</p>
+      <p>SSH is commonly used for remote access.</p>
+      <code>ip a</code>
+      <code>ping google.com</code>
+      <code>netstat -tuln</code>
+      <code>ufw enable</code>
+      <code>ssh user@host</code>
+      <ul>
+        <li>IP address</li>
+        <li>Subnet</li>
+        <li>Gateway</li>
+        <li>DNS</li>
+        <li>Firewall</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
